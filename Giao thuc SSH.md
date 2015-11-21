@@ -38,8 +38,8 @@ Chỉnh sửa port , 1024 port đầu dùng cho các giao thức, ta chỉnh por
 
 Ví dụ , chỉnh port là 1500
 
-	`# What ports, IPs and protocols we listen for`<br>
-	`Port 1500`
+	 # What ports, IPs and protocols we listen for
+	 Port 1500`
 	
 P/S: Sử dụng nmap để tránh các port đã sử dụng
 
