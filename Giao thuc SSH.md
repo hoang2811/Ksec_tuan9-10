@@ -24,7 +24,7 @@ SSH hoạt động đc hầu hết trên các Linux distro.
 
 Cài gói openssh-server
  
->sudo apt-get install openssh-server
+**`sudo apt-get install openssh-server`**
 
 Kiểm tra Open SSH có hoạt động không<br>
 	**`ps -e | grep openssh`**<br>
@@ -36,17 +36,18 @@ Cấu hình cho ssh<br>
 Chỉnh sửa tùy vào chính sách bảo mật riêng. <br>
 Chỉnh sửa port , 1024 port đầu dùng cho các giao thức, ta chỉnh port < 65535 (tốt nhất là từ 1500-5000). 
 
-Ví dụ , chỉnh port là 1500
+Ví dụ , chỉnh port là 2500
 
 	 # What ports, IPs and protocols we listen for
 	 Port 1500`
 	
-P/S: Sử dụng nmap để tránh các port đã sử dụng
+((((( P/S: Có thể sử dụng nmap để tránh các port đã sử dụng
 
 >	sudo apt-get install nmap<br>
 >	nmap -v <IP address>
 	
-	
+)))))
+
 `#Listen address 0.0.0.0`
 
 Lắng nghe ở interface 0.0.0.0, phần này chỉ thiết lập cho hệ thống có nhiều interface
@@ -66,7 +67,8 @@ Không cho phép login thông qua tài khoản nhất định
 Save lại, restart lại ssh<br>
 	**`sudo /etc/init.d/ssh restart`**<br>
 Kết nối vào hệ thống:<br>
-	**`ssh -p 1500 <address máy cần kết nối> -l <user>`**<br>
+Cách 1:	**`ssh -p 1500 <address máy cần kết nối> -l <user>`**<br>
+Cách 2: dùng putty nhập address máy sau đó nhập port.<br>
 Gõ “yes” & pass của user => ^^
 
 
