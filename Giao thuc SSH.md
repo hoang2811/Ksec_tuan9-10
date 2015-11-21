@@ -24,7 +24,7 @@ SSH hoạt động đc hầu hết trên các Linux distro.
 
 Cài gói openssh-server
  
-	**`sudo apt-get install openssh-server`**
+>sudo apt-get install openssh-server
 
 Kiểm tra Open SSH có hoạt động không<br>
 	**`ps -e | grep openssh`**<br>
