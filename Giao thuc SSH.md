@@ -71,4 +71,5 @@ Cách 1:	**`ssh -p 1500 <address máy cần kết nối> -l <user>`**<br>
 Cách 2: dùng putty nhập address máy sau đó nhập port.<br>
 Gõ “yes” & pass của user => ^^
 
-
+Hướng dẫn bằng clip by me!!!
+https://www.youtube.com/watch?v=zFNNL1TyMz0
