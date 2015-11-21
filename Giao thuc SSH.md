@@ -33,7 +33,8 @@ Nếu không hoạt động, ta khởi động openssh<br>
 Cấu hình cho ssh<br>
 	**`sudo gedit /etc/ssh/sshd_config`**
 	
-Chỉnh sửa tùy vào chính sách bảo mật riêng. Chỉnh sửa port , 1024 port đầu dùng cho các giao thức, ta chỉnh port < 65535 (tốt nhất là từ 1500-5000). 
+Chỉnh sửa tùy vào chính sách bảo mật riêng. <br>
+Chỉnh sửa port , 1024 port đầu dùng cho các giao thức, ta chỉnh port < 65535 (tốt nhất là từ 1500-5000). 
 
 Ví dụ , chỉnh port là 1500
 
